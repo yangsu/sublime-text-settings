@@ -1,0 +1,4 @@
+{
+	"jslint_options": "--debug --node --indent 4 --nomen --sloppy --predef THREE,_,$,chrome --browser",
+	"run_on_save": true
+}

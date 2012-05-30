@@ -1,0 +1,22 @@
+{
+	"auto_indent": true,
+	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"detect_indentation": false,
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"font_face": "Monaco",
+	"font_size": 12.0,
+	"highlight_line": true,
+	"indent_subsequent_lines": true,
+	"match_brackets_angle": true,
+	"rulers":
+	[
+		80
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true,
+	"word_wrap": false,
+	"wrap_width": 80
+}

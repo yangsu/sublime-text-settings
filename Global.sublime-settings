@@ -1,0 +1,44 @@
+{
+	"detect_slow_plugins": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.pdf"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".bundle",
+		"log",
+		"tmp",
+		".sass-cache"
+	],
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage",
+		"HTML5"
+	],
+	"theme": "Soda Dark.sublime-theme"
+}
