@@ -1,5 +1,5 @@
 {
-	"auto_upgrade_last_run": 1338407368,
+	"auto_upgrade_last_run": 1340091954,
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -26,11 +26,11 @@
 		"Package Control",
 		"sublime-jslint",
 		"SublimeAStyleFormatter",
-		"SublimeLinter",
 		"Tag",
 		"Terminal",
 		"Theme - Soda",
 		"WordCount",
-		"WordHighlight"
+		"WordHighlight",
+		"ZenCoding"
 	]
 }
