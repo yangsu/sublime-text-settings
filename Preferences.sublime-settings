@@ -47,7 +47,8 @@
 	"ignored_packages":
 	[
 		"Vintage",
-		"HTML5"
+		"HTML5",
+		"CoffeeScript"
 	],
 	"indent_subsequent_lines": true,
 	"match_brackets_angle": true,
