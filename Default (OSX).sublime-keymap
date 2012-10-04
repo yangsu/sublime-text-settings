@@ -1,7 +1,6 @@
 [
-  {"keys": ["ctrl+super+shift+g"], "command": "quick_find_all"},
+  {"keys": ["ctrl+shift+g"], "command": "quick_find_all"},
   {"keys": ["super+shift+j"], "command": "join_lines"},
-  {"keys": ["ctrl+super+shift+p"], "command": "markdown_preview"},
   {"keys": ["ctrl+super+alt+w"], "command": "close_all"},
   {"keys": ["alt+backquote"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
 ]
