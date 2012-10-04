@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<%= ${0:value} %>]]></content>
+	<tabTrigger>%=</tabTrigger>
+	<scope>text.html</scope>
+	<description><%= value %></description>
+</snippet>
