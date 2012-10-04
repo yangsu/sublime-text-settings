@@ -1,0 +1,3 @@
+[submodule "Snippets/HTML/octopress"]
+	path = Snippets/HTML/octopress
+	url = git@github.com:yangsu/sublime-octopress.git
