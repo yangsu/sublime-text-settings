@@ -1,5 +1,5 @@
 {
 	"jslint_happy": true,
-	"keep_invocation_indentation": true,
-	"node_var_dec": true
+	"keep_invocation_indentation": false,
+	"node_var_dec": false
 }
