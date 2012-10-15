@@ -1,0 +1,4 @@
+{
+  "cmd": ["osascript", "$packages/User/Build-Systems/Processing.scpt"],
+  "selector": "source.java-processing"
+}
