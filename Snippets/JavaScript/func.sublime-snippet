@@ -1,10 +1,9 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 function () {
-  $1
+	$1
 }$0
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>-></tabTrigger>
-  <scope>source.js</scope>
+	<tabTrigger>-></tabTrigger>
+	<scope>source.js</scope>
 </snippet>
