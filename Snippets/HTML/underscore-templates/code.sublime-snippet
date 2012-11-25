@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-<% ${1:code};
-%>]]></content>
+<% ${1:code};%>
+]]></content>
 	<tabTrigger>%</tabTrigger>
 	<scope>text.html</scope>
 	<description><% code; %></description>
