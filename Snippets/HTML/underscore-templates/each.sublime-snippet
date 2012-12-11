@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<% _.each(${1:collection}, function (value, key) { %>
+  <${2:li}><%= value %></$2>
+<% }); %>
+]]></content>
+  <tabTrigger>%each</tabTrigger>
+  <scope>text.html</scope>
+  <description><% _.each %></description>
+</snippet>
