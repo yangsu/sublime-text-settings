@@ -1,0 +1,14 @@
+{
+	"javascript_linter": "gjslint",
+	"sublimelinter_executable_map": {
+		"javascript": "/usr/local/bin/gjslint"
+	},
+
+	"gjslint_options": [
+		"--nojsdoc",
+		"--strict"
+	],
+	"gjslint_ignore": [
+		110  // line too long
+	]
+}

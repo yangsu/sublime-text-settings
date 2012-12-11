@@ -1,0 +1,10 @@
+{
+	// Flags pass to gjslint.
+	"gjslint_flags": "--nojsdoc --strict",
+	"ignore_errors": [
+		// "Expected an identifier and instead saw 'undefined' \(a reserved word\)"
+		"Line too long",
+		"Extra space after \"\\(\"",
+		"Extra space before \"\\)\""
+	]
+}
