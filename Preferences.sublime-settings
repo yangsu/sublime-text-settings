@@ -19,6 +19,7 @@
 	"detect_slow_plugins": false,
 	"draw_minimap_border": true,
 	"draw_white_space": "selection",
+	"enable_live_count": true,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
