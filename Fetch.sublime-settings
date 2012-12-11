@@ -1,10 +1,14 @@
 {
 	"files":
 	{
-		"backbone": "http://backbonejs.org/backbone-min.js",
-		"jquery": "http://code.jquery.com/jquery.min.js",
-		"lodash": "https://raw.github.com/bestiejs/lodash/master/lodash.min.js",
-		"underscore": "http://documentcloud.github.com/underscore/underscore-min.js"
+		"backbone": "http://backbonejs.org/backbone.js",
+		"backbone-min": "http://backbonejs.org/backbone-min.js",
+		"jquery": "http://code.jquery.com/jquery.js",
+		"jquery-min": "http://code.jquery.com/jquery.min.js",
+		"lodash": "https://raw.github.com/bestiejs/lodash/master/lodash.js",
+		"lodash-min": "https://raw.github.com/bestiejs/lodash/master/lodash.min.js",
+		"underscore": "http://documentcloud.github.com/underscore/underscore.js",
+		"underscore-min": "http://documentcloud.github.com/underscore/underscore-min.js"
 	},
 	"packages":
 	{
