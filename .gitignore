@@ -1,3 +1,4 @@
-Package Control.sublime-settings
-Gist.sublime-settings
-sublime-text-settings.sublime-workspace
+# Sublime
+*.sublime-workspace
+# Package Control
+Package Control.last-run

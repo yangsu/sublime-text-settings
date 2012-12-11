@@ -1,0 +1,55 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"AAAPackageDev",
+		"Alignment",
+		"All Autocomplete",
+		"AutoFileName",
+		"BracketHighlighter",
+		"Case Conversion",
+		"CoffeeScript",
+		"CoffeeScript Function Finder",
+		"Color Highlighter",
+		"DetectSyntax",
+		"DocBlockr",
+		"Dotfiles Syntax Highlighting",
+		"Expand Selection to Quotes",
+		"FileDiffs",
+		"Format SQL",
+		"Git",
+		"Goto Documentation",
+		"HTML5",
+		"Jade",
+		"jQuery Snippets pack",
+		"JS2Coffee",
+		"LESS",
+		"LiveReload",
+		"Nettuts+ Fetch",
+		"Nodejs",
+		"Origami",
+		"Package Control",
+		"Sass",
+		"SCSS",
+		"SCSS Snippets",
+		"SideBarEnhancements",
+		"Stylus",
+		"sublime-closure-linter",
+		"Sublime-HTMLPrettify",
+		"sublime-jslint",
+		"SublimeAStyleFormatter",
+		"SublimeLinter",
+		"Tag",
+		"Theme - Soda",
+		"WordCount",
+		"WordHighlight",
+		"ZenCoding"
+	],
+	"repositories":
+	[
+	],
+	"repository_channels":
+	[
+		"https://sublime.wbond.net/repositories.json"
+	]
+}
