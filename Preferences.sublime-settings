@@ -13,6 +13,7 @@
 	],
 	"auto_indent": true,
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"detect_slow_plugins": false,
