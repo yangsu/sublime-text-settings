@@ -53,9 +53,11 @@
 	],
 	"repositories":
 	[
+		"https://sublime.wbond.net/testing/packages.json"
 	],
 	"repository_channels":
 	[
-		"https://sublime.wbond.net/repositories.json"
+		"https://sublime.wbond.net/repositories.json",
+		"https://raw.github.com/wbond/package_control_channel/master/repositories.json"
 	]
 }
