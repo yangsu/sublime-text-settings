@@ -2,5 +2,6 @@
   {"keys": ["ctrl+shift+g"], "command": "quick_find_all"},
   {"keys": ["super+shift+j"], "command": "join_lines"},
   {"keys": ["ctrl+super+alt+w"], "command": "close_all"},
+  {"keys": ["alt+f2"], "command": "side_bar_rename" },
   {"keys": ["alt+backquote"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
 ]
