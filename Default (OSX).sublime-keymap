@@ -3,5 +3,7 @@
   {"keys": ["super+shift+j"], "command": "join_lines"},
   {"keys": ["ctrl+super+alt+w"], "command": "close_all"},
   {"keys": ["alt+f2"], "command": "side_bar_rename" },
+  {"keys": ["super+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
+  {"keys": ["super+shift+'"], "command": "expand_selection_to_quotes"},
   {"keys": ["alt+backquote"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
 ]
