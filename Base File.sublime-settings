@@ -18,5 +18,13 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_wrap": false,
-	"wrap_width": 80
+	"wrap_width": 80,
+	"codeintel_syntax_map": {
+		"CoffeeScript": "JavaScript"
+		// "CoffeeScript": "Node.js",
+		// "Javascript": "Node.js"
+	},
+	"codeintel_scan_exclude_dir": {
+		"JavaScript": ["/build/", "/min/"]
+	}
 }
