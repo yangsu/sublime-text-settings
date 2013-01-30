@@ -1,0 +1,4 @@
+{
+	"cmd": ["ksdiff", "$file1", "$file2"],
+	"open_in_sublime": false
+}
