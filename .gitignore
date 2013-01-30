@@ -2,3 +2,9 @@
 *.sublime-workspace
 # Package Control
 Package Control.last-run
+# Side Bar Package
+Side Bar.sublime-settings
+# SublimeREPL
+SublimeREPLHistory/
+# Sublime Github
+GitHub.sublime-settings
