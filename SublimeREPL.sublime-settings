@@ -1,0 +1,16 @@
+{
+	// default_extend_env are used to augment any environment variables
+	// that should be visible for all subporcess repls launched within
+	// SublimeREPL. This is a very good place to add PATH extension
+	// once "PATH": "{PATH}:/home/username/mylocalinstalls/bin" or whatever
+	"default_extend_env": {
+		"PATH": "/Users/yang/bin:/usr/local/bin/:{PATH}",
+    "GEM_PATH": "/Users/yang/.rvm/gems/ruby-1.9.3-p194:/Users/yang/.rvm/gems/ruby-1.9.3-p125@global"
+	},
+
+	// this settings exposes additional variables in repl config files, especially
+	// those related to sublime projects that are not available through standard API
+	// WARNING: this will switch your build system back to Automatic each time a REPL
+	// is started so beware!
+	"use_build_system_hack": false
+}
