@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+task = wt(${1:company_id})
+company = y(data.company.read_in_task(task, $1))
+${2:company.}
+y(data.company.update(task, company))
+y(task.do())
+$0
+]]></content>
+    <tabTrigger>updateci</tabTrigger>
+    <description>Update company task (bin/interactive)</description>
+    <scope>source.python</scope>
+</snippet>

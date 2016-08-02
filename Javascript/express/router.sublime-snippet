@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+var express = require('express');
+var ${1:router} = express.Router();
+
+$1.get('/', function(req, res, next) {
+  $0res.render('index', { title: 'Express' });
+});
+
+module.exports = $1;
+]]></content>
+  <tabTrigger>router</tabTrigger>
+  <scope>source.js</scope>
+  <description>express router</description>
+</snippet>

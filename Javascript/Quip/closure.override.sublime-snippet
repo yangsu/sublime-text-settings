@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+/** @override */
+]]></content>
+    <tabTrigger>over</tabTrigger>
+    <scope>source.js,source.jsx</scope>
+</snippet>

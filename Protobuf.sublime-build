@@ -1,0 +1,4 @@
+{
+	"shell_cmd": ["protoc", "--python_out=.", "$file"],
+	"selector": "text.proto"
+}

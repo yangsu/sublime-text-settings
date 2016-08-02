@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+var store = require('js/lib/coursera.store');
+]]></content>
+  <tabTrigger>store</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

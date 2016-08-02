@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+import fileinput
+
+for ${1:line.strip()} in fileinput.input():
+    $0
+]]></content>
+  <tabTrigger>fileinput</tabTrigger>
+  <scope>source.python</scope>
+</snippet>

@@ -1,6 +1,3 @@
 {
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"word_wrap": true,
-	"trim_trailing_white_space_on_save": false
+  "trim_trailing_white_space_on_save": false
 }

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+console.log(require('util').inspect(${1:obj}, true, 10, true))
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cli</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.coffee</scope>
+</snippet>

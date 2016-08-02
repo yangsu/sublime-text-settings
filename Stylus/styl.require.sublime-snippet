@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+@require '../../common/styl/mixins'
+@require '../../common/styl/variables'
+]]></content>
+  <tabTrigger>require</tabTrigger>
+  <scope>source.styl</scope>
+</snippet>

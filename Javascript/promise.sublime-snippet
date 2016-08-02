@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+var deferred = Q.defer();
+$0
+return deferred.promise;
+]]></content>
+  <tabTrigger>promise</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

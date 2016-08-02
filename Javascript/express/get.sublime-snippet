@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:router}.get('${2:/}', function(req, res, next) {
+  $0
+});
+]]></content>
+  <tabTrigger>rget</tabTrigger>
+  <scope>source.js</scope>
+  <description>Express get</description>
+</snippet>

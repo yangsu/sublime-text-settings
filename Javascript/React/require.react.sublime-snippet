@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+var React = require('react-with-addons');$0
+]]></content>
+  <tabTrigger>rr</tabTrigger>
+  <scope>source.js</scope>
+  <description>Require React</description>
+</snippet>

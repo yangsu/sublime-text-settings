@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+(/** @type {${1:type}} */ (${2:var}))
+]]></content>
+    <tabTrigger>cast</tabTrigger>
+    <scope>source.js, source.jsx</scope>
+    <description>Inline cast</description>
+</snippet>

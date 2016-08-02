@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+var expect = require('chai').expect;
+var app = require('static/bundles/requirejs/environment');
+
+/*jshint expr:true*/
+describe('${1:suite}', function() {
+
+  beforeEach(function() {
+    this.environment = app.configure();
+    this.sinon = this.environment.sinon.sandbox.create();
+    this.${2:var} = this.environment.require('${3:path}');
+  });
+
+  afterEach(function() {
+    this.sinon.restore();
+  });
+
+  it('${4:expectation}', function() {
+    $0
+  });
+
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>test</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

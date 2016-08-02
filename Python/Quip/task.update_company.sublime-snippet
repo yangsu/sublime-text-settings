@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+with write_task(proto.db.USERS) as task:
+    run%(task.connect_to_id(${1:company_id}))
+    company = run%(data.company.read_in_task(task, $1))
+    ${2:company.}
+    run%(data.company.update(task, company))
+    $0
+]]></content>
+    <tabTrigger>updatec</tabTrigger>
+    <description>Update company task</description>
+    <scope>source.python</scope>
+</snippet>

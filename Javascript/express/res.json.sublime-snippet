@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+res.json(${1:data});
+]]></content>
+  <tabTrigger>rj</tabTrigger>
+  <scope>source.js</scope>
+  <description>Express res.json</description>
+</snippet>

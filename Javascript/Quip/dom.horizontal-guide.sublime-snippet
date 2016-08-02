@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+dom.tag("div").setStyles({
+    zIndex: 1000,
+    position: 'absolute',
+    width: '100%',
+    top: ${1:top} + 'px',
+    borderTop: '1px solid ${2:color}',
+});
+]]></content>
+    <tabTrigger>hr</tabTrigger>
+    <scope>source.js</scope>
+    <description>Horizontal Guide</description>
+</snippet>

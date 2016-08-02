@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+task = wt("${1:user_id}")
+user = y(data.users.read_in_task(task, "$1"))
+user.$2
+y(data.users.update(task, user))
+y(task.do())
+$0
+]]></content>
+    <tabTrigger>updateui</tabTrigger>
+    <description>update user (interactive)</description>
+    <scope>source.python</scope>
+</snippet>

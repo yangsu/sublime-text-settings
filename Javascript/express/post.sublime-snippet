@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:router}.post('${2:/}', function(req, res, next) {
+  $0
+});
+]]></content>
+  <tabTrigger>rpost</tabTrigger>
+  <scope>source.js</scope>
+  <description>Express post</description>
+</snippet>

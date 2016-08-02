@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": false,
 	"auto_complete": true,
 	"auto_complete_triggers":
 	[
@@ -9,71 +10,106 @@
 		{
 			"characters": "/",
 			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		},
+		{
+			"characters": "'",
+			"selector": "source.js,source.stylus"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js,source.jsx"
 		}
 	],
 	"auto_indent": true,
-	"color_scheme": "Packages/Color Scheme - Default/Sunburst.tmTheme",
+	"caret_extra_bottom": 3,
+	"caret_extra_top": 3,
+	"caret_extra_width": 2,
+	"color_scheme": "Packages/User/SublimeLinter/Darkside (SL).tmTheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
-	"detect_slow_plugins": false,
-	"draw_minimap_border": true,
+	"detect_slow_plugins": true,
+	"draw_minimap_border": false,
 	"draw_white_space": "selection",
 	"enable_live_count": true,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		"*.a",
+		"*.class",
+		"*.db",
+		"*.dll",
+		"*.dylib",
+		"*.exe",
+		"*.idb",
+		"*.lib",
+		"*.ncb",
+		"*.o",
+		"*.obj",
+		"*.pdb",
+		"*.pdf",
+		"*.psd",
 		"*.pyc",
 		"*.pyo",
-		"*.exe",
-		"*.dll",
-		"*.obj",
-		"*.o",
-		"*.a",
-		"*.lib",
-		"*.so",
-		"*.dylib",
-		"*.ncb",
 		"*.sdf",
+		"*.so",
 		"*.suo",
-		"*.pdb",
-		"*.idb",
+		"._*",
 		".DS_Store",
-		"*.class",
-		"*.psd",
-		"*.db",
-		"*.pdf"
+		".Spotlight-V100",
+		".Trashes",
+		"Desktop.ini",
+		"Thumbs.db"
 	],
 	"folder_exclude_patterns":
 	[
-		".svn",
+		".bundle",
 		".git",
 		".hg",
+		".sass-cache",
+		".svn",
 		"CVS",
-		".bundle",
 		"log",
-		"tmp",
-		".sass-cache"
+		"node_modules",
+		"tmp"
 	],
-	"font_face": "Monaco",
-	"font_size": 12.0,
+	"font_face": "Hack",
+	"font_size": 13,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
+	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"HTML5",
-		"CoffeeScript"
+		"Emmet",
+		"FindKeyConflicts",
+		"HTML",
+		"Markdown",
+		"SublimeAStyleFormatter",
+		"SublimeLinter-flow",
+		"tern_for_sublime",
+		"TernJS",
+		"Vintage"
 	],
 	"indent_subsequent_lines": true,
+	"index_exclude_patterns":
+	[
+		"*.log"
+	],
 	"match_brackets_angle": true,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": true,
 	"rulers":
 	[
-		80
+		80,
+		100,
+		120
 	],
+	"scala_worksheet_sync_views": true,
+	"show_panel_on_build": true,
 	"tab_size": 2,
-	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"trim_trailing_white_space_on_save": false,
 	"use_tab_stops": true,
 	"word_wrap": false,
 	"wrap_width": 80

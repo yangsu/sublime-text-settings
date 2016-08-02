@@ -1,0 +1,13 @@
+{
+	"csv_per_file_setting":
+	[
+		{
+			"file": null,
+			"use_header": true
+		},
+		{
+			"file": "/Users/yang/Downloads/userboard-sqlboard-1397502103304-yang@coursera.org.csv",
+			"use_header": true
+		}
+	]
+}

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+var classNames = require('classnames');$0
+]]></content>
+  <tabTrigger>rcn</tabTrigger>
+  <scope>source.js</scope>
+  <description>Require Class Names</description>
+</snippet>

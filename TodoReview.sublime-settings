@@ -1,0 +1,19 @@
+{
+  "exclude_folders": [
+    "*.git*",
+    "node_modules*"
+  ],
+  "exclude_files": [
+    "*.sublime-workspace",
+    "*.sublime-project"
+  ],
+  "render_include_folder": true,
+  "patterns": {
+    "FIXME": "FIX ?ME[\\s]*?:[\\s]*(?P<fixme>.*)$",
+    "TODO": "TODO[\\s]*(\\(\\yang\\)):?[\\s]*(?P<todo>.*)$"
+  },
+  "patterns_weight": {
+    "FIXME": 1,
+    "TODO": 2
+  }
+}

@@ -1,9 +1,121 @@
 [
-  {"keys": ["ctrl+shift+g"], "command": "quick_find_all"},
-  {"keys": ["super+shift+j"], "command": "join_lines"},
-  {"keys": ["ctrl+super+alt+w"], "command": "close_all"},
-  {"keys": ["alt+f2"], "command": "side_bar_rename" },
-  {"keys": ["super+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
-  {"keys": ["super+shift+'"], "command": "expand_selection_to_quotes"},
-  {"keys": ["alt+backquote"], "command": "show_panel", "args": {"panel": "console", "toggle": true} }
+  {
+    "keys": [
+      "ctrl+shift+g"
+    ],
+    "command": "quick_find_all"
+  },
+  {
+    "keys": [
+      "ctrl+super+alt+w"
+    ],
+    "command": "close_all"
+  },
+  {
+    "keys": [
+      "alt+f2"
+    ],
+    "command": "side_bar_rename"
+  },
+  {
+    "keys": [
+      "super+shift+space"
+    ],
+    "command": "expand_selection",
+    "args": {
+      "to": "scope"
+    }
+  },
+  {
+    "keys": [
+      "super+shift+'"
+    ],
+    "command": "expand_selection_to_quotes"
+  },
+  {
+    "keys": [
+      "alt+backquote"
+    ],
+    "command": "show_panel",
+    "args": {
+      "panel": "console",
+      "toggle": true
+    }
+  },
+  {
+    "keys": [
+      "super+shift+'"
+    ],
+    "command": "change_quotes"
+  },
+  {
+    "keys": [
+      "alt+q"
+    ],
+    "command": "wrap_lines_plus"
+  },
+  {
+    "keys": [
+      "ctrl+="
+    ],
+    "command": "jump_forward"
+  },
+  {
+    "keys": [
+      "super+ctrl+v"
+    ],
+    "command": "insert_file_path"
+  },
+  {
+    "keys": [
+      "super+shift+v"
+    ],
+    "command": "paste_and_indent"
+  },
+  {
+    "keys": [
+      "shift+super+a"
+    ],
+    "command": "expand_selection",
+    "args": {
+      "to": "tag"
+    }
+  },
+  {
+    "keys": [
+      "super+alt+s"
+    ],
+    "command": "save_all"
+  },
+  {
+    "keys": [
+      "ctrl+shift+d"
+    ],
+    "command": "babel"
+  },
+  {
+    "keys": [
+      "super+alt+l"
+    ],
+    "command": "prompt_insert_nums"
+  },
+  {
+    "keys": [
+      "super+shift+c"
+    ],
+    "command": "copy_path"
+  },
+  {
+    "keys": [
+      "super+alt+n"
+    ],
+    "command": "show_scope_name"
+  },
+  {
+    "keys": ["super+alt+shift+f"],
+    "command": "css_format",
+    "args": {
+      "action": "expand"
+    }
+  }
 ]

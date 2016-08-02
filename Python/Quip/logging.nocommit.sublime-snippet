@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+logging.NOCOMMIT($1)$0
+]]></content>
+    <tabTrigger>log</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

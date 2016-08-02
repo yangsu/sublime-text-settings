@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+traceback.print_exc()
+]]></content>
+    <tabTrigger>traceback</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

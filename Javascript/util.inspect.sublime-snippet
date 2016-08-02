@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+console.log(require('util').inspect($1, {depth: ${2:10}}));
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ins</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

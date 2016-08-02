@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+new parts.tracking.Data(${1:id}, ${2:clickData})
+]]></content>
+    <tabTrigger>trackingdata</tabTrigger>
+    <scope>source.js</scope>
+    <description>tracking.Data</description>
+</snippet>

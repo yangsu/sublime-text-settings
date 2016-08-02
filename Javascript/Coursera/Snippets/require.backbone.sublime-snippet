@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+var Backbone = require('backbone${1:-associations}');$0
+]]></content>
+  <tabTrigger>bb</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

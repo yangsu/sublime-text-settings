@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+function setup() {
+  createCanvas(${1:width}, ${2:height});
+}
+
+function draw() {
+
+}
+]]></content>
+  <tabTrigger>sketch</tabTrigger>
+  <scope>source.js</scope>
+  <description>P5 sketch</description>
+</snippet>

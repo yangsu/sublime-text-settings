@@ -1,0 +1,22 @@
+{
+	"extensions":
+	[
+		"c",
+		"h",
+		"cpp",
+		"cxx",
+		"c++",
+		"h",
+		"hpp",
+		"hxx",
+		"h++",
+		"inl",
+		"ipp",
+		"h",
+		"cc",
+		"cc",
+		"h",
+		"cpp"
+	],
+	"tab_size": 2
+}

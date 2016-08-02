@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+${1:router}.put('${2:/}', function(req, res, next) {
+  $0
+});
+]]></content>
+  <tabTrigger>rput</tabTrigger>
+  <scope>source.js</scope>
+  <description>Express put</description>
+</snippet>

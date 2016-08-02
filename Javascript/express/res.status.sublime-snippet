@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+res.status(${1:404})
+]]></content>
+  <tabTrigger>rstat</tabTrigger>
+  <scope>source.js</scope>
+  <description>Express res.status</description>
+</snippet>

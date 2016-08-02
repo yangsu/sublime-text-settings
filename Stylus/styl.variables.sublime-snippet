@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+@require '../../../../bundles/phoenix/template/styl/variables'
+]]></content>
+  <tabTrigger>variables</tabTrigger>
+  <scope>source.styl</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+finish%(run%(${1:coroutine}))$0
+]]></content>
+    <tabTrigger>fr</tabTrigger>
+    <scope>source.python</scope>
+    <description>finish%(run%())</description>
+</snippet>
